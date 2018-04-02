@@ -1,0 +1,139 @@
+$color1: #E65C43
+$color2: #666
+$color3: #fff
+$light: 100
+$normal: 400
+$bold: 900
+
+
+body
+    font-family: 'Roboto', sans-serif
+    font-size: 1em
+    line-height: 2em
+    background: url('../images/bg.gif') #FFF repeat-x
+    
+main
+    width: 940px
+    margin: 0 auto
+    padding: 0 10px
+    
+figure
+    width: 400px 
+    height: 190px
+    background: url('../images/logo.png') no-repeat 0 50px
+    float: left
+    
+nav
+    width: 540px
+    height: 190px
+    float: left
+    text-align: right
+    ul
+        list-style-type: none
+        margin-top: 95px
+        li
+            display: inline
+            font-size: 0.8em
+            margin-right: 10px
+            a
+                color: $color1
+                text-decoration: none
+                letter-spacing: -0.01em
+                &:hover
+                    color: $color3
+
+header
+    width: inherit
+    clear: both
+    text-align: center
+    padding-top: 40px
+    img
+        max-width: 100%
+        height: auto
+    h1
+        color: $color1
+        font-weight: $light
+        font-size: 4em
+        line-height: 0
+    h2
+        color: $color3
+        font-weight: $bold
+        font-size: 2.5em
+        line-height: 0
+        margin-bottom: 70px
+    h3
+        color: $color2
+        font-weight: $normal
+        font-size: 2em
+        line-height: 0
+        margin-bottom: 50px
+        
+#headline
+    width: 100%
+    height: 130px
+    background: $color1
+    text-align: center
+    margin: 0 auto
+    h1
+        color: $color3
+        font-size: 2.5em
+        font-weight: $light
+        padding-top: 50px
+        
+#content
+    width: 940px
+    margin: 20px auto
+    h3
+        color: $color2
+        font-size: 2em
+        font-weight: $normal
+    #products
+        width: 460px
+        float: left
+        img
+            float: left
+            margin-right: 20px
+        article
+            margin-bottom: 40px
+        h4
+            line-height: 1em
+    #testimonials
+        width: 460px
+        float: right
+        
+.greybar
+    width: 100%
+    height: 90px
+    background: lighten($color2, 55%)
+    clear: both
+    padding-top: 30px
+
+footer
+    width: 100%
+    height: 120px
+    background: #30353D
+    text-align: center
+    color: $color3
+    padding-top: 50px
+
+.social-media
+    margin: 0 auto
+    width: 165px
+    div
+        float: left
+        margin-right: 5px
+        &.one
+            background: url('../images/social-media.png') 0 0
+        &.two
+            background: url('../images/social-media.png') -38px 0
+        &.three
+            background: url('../images/social-media.png') -76px 0
+        &.four
+            background: url('../images/social-media.png') -114px 0
+    a
+        display: block
+        width: 36px
+        height: 36px
+        text-indent: -9999px
+            
+
